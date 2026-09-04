@@ -1,0 +1,37 @@
+preprocessing:
+  voxel_size: 2
+  resample_size: 1
+  dilate: True
+gdls:
+  max_conv_times: 10
+  max_mse: 1.0
+optim:
+  Niter: 2000
+  w_chamfer: 0.4
+  w_edge: 1.0
+  w_normal: 0.01
+  w_laplacian: 0.5
+  sample_num: 10000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
